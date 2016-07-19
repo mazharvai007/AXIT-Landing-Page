@@ -1,0 +1,115 @@
+/* 17" - 19" screen */
+@media screen and (min-width: 1024px){
+}
+
+/* 21" screen */
+@media screen and (min-width: 1280px){
+}
+
+/* 21" Maximized / Dual Monitors */
+@media screen and (min-width: 1600px){
+}
+
+/* Dual Monitors, full screen */
+@media screen and (min-width: 2700px){}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px){
+    .brand-social li a {
+        font-size: 3rem;
+        padding: 5px 23px;
+    }    
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px){
+    img {
+        width: 100%;
+    }
+    .banner-block img, .avatar img {
+        width: auto;
+    }    
+    .banner-content form {
+        width: 100%;
+    }    
+    .brand-social li a {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    .avatar {
+        width: 15%;
+    }
+    .featured-price {
+        top: 0;
+    }
+    .single-item {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .single-process {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        width: 100%;
+    }    
+}
+
+/* xs */
+@media (max-width: 767px){
+    .banner-content form {
+        width: 100%;
+    }
+    .navbar-toggle {
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .main-menu ul {
+        float: none;
+    }    
+    .brand-social li a {
+        font-size: 3rem;
+        padding: 5px 14px;
+    }
+    .brandbar-area {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .brand-social {
+        margin-top: 15px;
+    }
+    .tab-content {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .features-content {
+        margin-bottom: 25px;
+    }
+    .featured-price {
+        top: 0;
+    }
+    .single-item {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .single-process {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        width: 100%;
+    }    
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {}
+
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {}
+
+@media screen and (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {}
+
+@media (min-width: 375px) {}
